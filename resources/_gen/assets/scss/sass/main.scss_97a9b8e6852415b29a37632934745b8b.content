@@ -12,7 +12,7 @@ body {
       color: initial;
       text-decoration: none; }
   body header {
-    background-color: #333333;
+    background-color: #0d6efd;
     border-bottom: 2px solid gray;
     box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
     justify-content: space-between;
@@ -96,7 +96,7 @@ body {
       body article section.right-menu .Actions {
         font-size: 75%; }
   body footer {
-    background-color: #333333;
+    background-color: #0d6efd;
     color: #cccccc;
     padding: 3rem; }
     body footer a {

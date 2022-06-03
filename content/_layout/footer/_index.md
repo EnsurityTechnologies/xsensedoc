@@ -281,33 +281,47 @@ body footer {
 }
 
 </style>
+ <div class="footer-gray">
+    <div class="footer-custom">
+      <div class="footer-lists">
+          <div class="footer-list-wrap">
+          <h6 class="ftr-hdr">Company</h6>
+          <ul class="ftr-links-sub">
+            <li><a href="#" rel="nofollow">About us</a></li>
+            <li><a href="#" rel="nofollow">Leadership</a></li>
+            <li><a href="#" rel="nofollow">Customers</a></li>
+            <li><a href="#" rel="nofollow">Careers</a></li>
+            <li><a href="#" rel="nofollow">Resources</a></li>
+            <li><a href="#" rel="nofollow">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-list-wrap">
+          <h6 class="ftr-hdr">Products</h6>
+          <ul class="ftr-links-sub">
+            <li><a href="#" rel="nofollow">ThinC-AUTH (Biometric Security Key)</a></li>
+           <li>
+            <a href="https://twitter.com/ensuritytech" title="Twitter">
+              <img width="26"  src=".\twitterr.png">
+            </a>
+          </li>
+            <li><a href="#" rel="nofollow">XSense Passwordless</a></li>
+             <a href="https://twitter.com/XSenseID" title="Twitter">
+              <img width="26"  src=".\twitterr.png">
+            </a>
+            <li><a href="#" rel="nofollow">ARC (Assured Remote Computing</a></li>
+          </ul>
+        </div>
+        </div>
+      </ul>
+      </div>
+     </div>
+    </div>
+  </div>
+
   <div class="footer-gray">
     <div class="footer-custom">
       <div class="footer-social">
-        <h6 class="ftr-hdr">Follow Us</h6>
-        <ul>
-          <li>
-            <a href="https://www.facebook.com/EnsurityTech/" title="Facebook">
-              <img width="24" height="24" alt="Like us on Facebook" src="/images/fb.png">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/company/ensurity/" title="LinkedIn">
-              <img width="26" height="26" alt="LinkedIn" src="/images/linkedin.png">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/channel/UCPsYVSci8BuAB61cGyzTdcw/featured" target="_blank">
-              <img width="26" height="26" alt="Latest Videos" src="/images/youtube.png">
-            </a>
-          </li>
-           <li>
-            <a href="https://twitter.com/ensuritytech" title="Twitter">
-              <img width="26" alt="Follow us on Twitter" src="/images/twitterr.png">
-            </a>
-          </li>
-        </ul>
-      </div>
+       </div>
       <div class="footer-legal">
         <p>&copy; Ensurity Technologies. | <a href="https://www.ensurity.com/Policies/privacy" rel="nofollow">Privacy Policy</a> | <a href="https://www.ensurity.com/Policies/terms" rel="nofollow">Terms of Use</a> | <a href="https://www.ensurity.com/Policies/cookie" rel="nofollow">Cookie Policy</a></p>
       </div>
