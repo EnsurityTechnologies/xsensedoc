@@ -36,9 +36,7 @@ With OpenID, users can enjoy the convenience of using a single set of login cred
 
 To add a application, click on New Application. 
 
-
-
-
+![LDAP](../../../../images/newopenid.png)
 
 ## OpenID Scopes
 
