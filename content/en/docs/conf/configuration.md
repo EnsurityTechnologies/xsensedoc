@@ -33,7 +33,7 @@ After login to the dashboard using the default admin credentials, the IT admin m
 
 <br>
 
-![LDAP](../../../../images/LDAP.png)
+![LDAP](images/LDAP.png)
 
 <br>
 
