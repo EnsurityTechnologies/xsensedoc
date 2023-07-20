@@ -1,4 +1,0 @@
-[build]
-  publish = "Docport/public"
-  command = "hugo -s Docport --config config.toml --baseURL /"
-
