@@ -9,3 +9,7 @@ images: []
 weight: 160
 toc: true
 ---
+
+ThinC Manager is software utility required for managing ThinC-AUTH USB device. The device can be used as authenticator device for FIDO2 services after registering a user to the device using ThinC Manager tool. 
+
+

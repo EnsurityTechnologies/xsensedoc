@@ -1,7 +1,7 @@
 
 ---
 title: "Identity Management"
-description: ""
+description: " "
 lead: ""
 date: 2020-11-12T15:22:20+01:00
 lastmod: 2020-11-12T15:22:20+01:00
@@ -13,6 +13,12 @@ menu:
 weight: 630
 toc: true
 ---
+
+Roles, users, and their permissions are managed by the Identity Management.The list of users can be viewed on this page. You can add, modify, and remove users as well as give them roles. The menu items and associated pages have permission. This means that in order to make them visible, the current user must possess the necessary rights. These capabilities are already available to users with the admin role (including the admin user). Open the Permissions dialogue on the Roles or Users page and check the permissions if you want to enable permissions for additional roles or users.
+
+## Organization Units
+
+
 
 ## Roles
 Roles are used for defining the access rights and permissions for a user to perform a specific operation. By default, the application provides two roles, one is the Admin role and the other is the User role. The admin can choose any role for the user during the user creation. The admin can also create new roles and assign these roles to users. The Admin can configure the permissions based on the role created.
