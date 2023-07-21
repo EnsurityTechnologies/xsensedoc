@@ -19,7 +19,7 @@ The AMS section under settings helps the admin to synchronize the admins from th
 *	The users available under the “Admin” group, will be able to login into the XSense portal using their AD credentials. The XSense CP server Admins can sign into Windows OS through XSense CPP bypassing the MFA / ThinC-AUTH biometric security key.
 *	Under the User filter, provide the necessary filter to fetch and synchronize all the users from the specified OU / All the users in the Active Directory. By default, these users will not have any permission to access the XSense CP portal. 
 
-![LDAP](../../../../images/LDAPFILTER.png)
+![LDAP](/images/LDAPFILTER.png)
 
 
 * We are saving limited attributes of the admin users which will be used to identify the admin like Common Name, User principal name, and SAMAccountname.

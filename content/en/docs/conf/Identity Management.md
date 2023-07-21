@@ -27,11 +27,11 @@ The users assigned to this role will not have any access to the dashboard. If re
 
 * To create a new role, click on “Create new role” enter the Role name and assign the required permissions. During the role creation, the admin can choose the default role for all the new users. 
 
-![LDAP](../../../../images/rolecreation.png)
+![LDAP](/images/rolecreation.png)
 
 * Once the role is created, click on Actions, and choose “Permissions.” In the pop up choose the necessary permissions required and click on Save. 
 
-![LDAP](../../../../images/permissions.png)
+![LDAP](/images/permissions.png)
 
 * The chosen permissions will be applied to the role. The users assigned to the role will have the assigned permissions only.
 
@@ -48,11 +48,11 @@ Users can be onboarded to XSense CP Server from the configured LDAP / Active Dir
 * To initiate the import, navigate to the Users section under Identity Management. Click on Import Users. 
 * In the popup windows, click on Import Users under the LDAP section. 
 
-![LDAP](../../../../images/permissions.png)
+![LDAP](/images/permissions.png)
 
 * Choose the users and click on Sync. The selected users will be imported to XSense CP Server.
 
-![LDAP](../../../../images/users.png)
+![LDAP](/images/users.png)
 
 *	The synced user role can be modified by clicking on Actions and Edit. Choose the necessary role for the user and click on Save.
 * The user details modified under the User information section do not get updated in the AD including the permissions. The modifications are local to the XSense dashboard.
