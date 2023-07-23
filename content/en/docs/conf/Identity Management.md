@@ -18,7 +18,20 @@ Roles, users, and their permissions are managed by the Identity Management.The l
 
 ## Organization Units
 
+Users, groups, and computers can all be stored under an OU, which is a container found within an XSense. The smallest unit to which a Group Policy setting or account authorization can be applied is known as a subunit. Multiple OUs may exist within an AD organisational unit, but each of the OU's constituent attributes must be distinct.
 
+![ou](images/ou.png)
+
+* Navigate to the Organisation Unit, which is under Identity Management, to start a new Organisation Unit. Select **Add root unit**.
+
+![newou](images/newou.png)
+
+* Enter the name of the organisation unit and click on **Save**. After successfully creating the OU, the admin perform the below actions:
+  - Edit: Allows the admin to edit the name of the Organisation Unit.
+  - Add Sub-unit: provides the admin the ability to add a sub-organizational unit. Each subunit can have an individual role.
+  - Add Member: Allows the admin to add users to the organisation unit.  
+  - Add Role: Assign the organisation unit the permissions. The Roles created under the Roles section are where these permissions are selected. 
+  - Delete: Delete the organisation unit, but doing so does not remove the associated users or roles from the server.
 
 ## Roles
 Roles are used for defining the access rights and permissions for a user to perform a specific operation. By default, the application provides two roles, one is the Admin role and the other is the User role. The admin can choose any role for the user during the user creation. The admin can also create new roles and assign these roles to users. The Admin can configure the permissions based on the role created.
@@ -29,7 +42,7 @@ The users assigned to this role are administrators and have all the permissions 
 ### User Role
 The users assigned to this role will not have any access to the dashboard. If required, the admin can modify the permissions for this user role from Actions>> Permissions and choose the necessary permissions. 
 
-## Role Creation
+### Role Creation
 
 * To create a new role, click on “Create new role” enter the Role name and assign the required permissions. During the role creation, the admin can choose the default role for all the new users. 
 
