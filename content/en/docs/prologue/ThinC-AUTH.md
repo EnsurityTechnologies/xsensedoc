@@ -6,7 +6,7 @@ date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
 draft: false
 images: []
-weight: 130
+weight: 120
 toc: true
 ---
 Ensurity, partnering with Microsoft and FIDO Alliance, has developed ThinC-AUTH, a Biometric FIDO2 Security Key to enable passwordless / strong secure authentication. Ensurity’s Biometric FIDO2 Security Keys allows the user to carry his/her credential with them and safely authenticate without passwords.
