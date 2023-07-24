@@ -9,34 +9,33 @@ menu:
 weight: 640
 toc: true
 ---
-
 ## API Keys
-An API key is used to identify and authenticate an application. They act as unique identifiers and provide a secret token for the authentication process. The APIs are the interface that helps the XSense Server communicate with the XSense CPP application and ThinC Manager. 
+
+An API key is used to identify and authenticate an application. They act as unique identifiers and provide a secret token for the authentication process. The APIs are the interface that helps the XSense Server communicate with the XSense CPP application and ThinC Manager.
 
 * To generate a new key, navigate to API keys under the Applications section. Click on New API Key and provide the Name of the API key and a key value. The key value can be alphanumeric and contain special characters. Click on save.
 
 {{< alert icon="👉" context="note" text="The admin does not have to generate the API keys regularly." />}}
 
-#### ThinC Manager Installation with API Config file
+### ThinC Manager Installation with API Config file
 
 Download the API config file and place the API config file in the same folder of the ThinC Manager installer. Once the ThinC Manager installation is initiated, the installer will automatically fetch the available API config and complete the installation.
 
-#### XSense CPP Installation with API Config file
+### XSense CPP Installation with API Config file
 
 Place the API config file in the same folder of the XSense CPP installer. Once the XSense CPP installation is initiated, the installer will automatically fetch the available API config and complete the installation.
 
 ## OpenID
 
-OpenID is an open standard and decentralized authentication protocol that enables users to log in to multiple websites and applications using a single set of credentials. OpenID is a simplified identity layer implemented on top of the OAuth 2.0 protocol. The OpenID protocol allows users to authenticate themselves with an OpenID provider, such as XSense Server,Google or Facebook. After being verified, the user is given a special ID called an OpenID, which they can use to log into any number of websites that use OpenID authentication through XSense with multifactor authentication.
+OpenID is an open standard and decentralized authentication protocol that enables users to log in to multiple websites and applications using a single set of credentials. OpenID is a simplified identity layer implemented on top of the OAuth 2.0 protocol. The OpenID protocol allows users to authenticate themselves with an OpenID provider, such as XSense Server,Google or Facebook. After being verified, the user is given a special ID called an OpenID, which they can use to log into any number of websites that use OpenID authentication through XSense with multi-factor authentication.
 
-With OpenID, users can enjoy the convenience of using a single set of login credentials across multiple platforms, reducing the burden of remembering multiple usernames and passwords. XSense Server offers  more secure / multi-factor authentication techniques, lowering the danger of password-related vulnerabilities such weak passwords or password reuse. The administrator can add several applications to enable multifactor authentication from the XSense dashboard. 
+With OpenID, users can enjoy the convenience of using a single set of login credentials across multiple platforms, reducing the burden of remembering multiple usernames and passwords. XSense Server offers  more secure / multi-factor authentication techniques, lowering the danger of password-related vulnerabilities such weak passwords or password reuse. The administrator can add several applications to enable multi-factor authentication from the XSense dashboard.
 
-* To add a application, click on **New Application**. 
+* To add a application, click on **New Application**.
 
 ![LDAP](images/newopenid.PNG)
 
-* Enter the required details and choose the necessary scopes for the application and click on **Save**. 
-
+* Enter the required details and choose the necessary scopes for the application and click on **Save**.
 
 ## OpenID Scopes
 
