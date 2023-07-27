@@ -50,3 +50,30 @@ Scopes help protect user privacy by allowing users to limit the access an applic
 OpenID supports a range of standard scopes, such as profile information, email address, offline access, and specific application-defined scopes. The availability of scopes may vary depending on the OpenID provider and the configuration of the application.
 
 In summary, scopes in OpenID define the extent of access an application has to a user's data and resources. They provide users with control over the permissions granted to applications during the authentication process, ensuring a balance between convenience and privacy.
+
+* adfasdfaf
+
+![New OpendID Scope](images/OIDCNewScope.png)
+a
+* adfadf
+
+![New OpendID Scope](images/OIDCScope.png)
+
+
+
+## SAML
+
+
+* okj;kj;
+
+  ![new SAML application](images/SAMLNewApp.png)
+
+* adsfadsfasdf
+
+  ![new SAML application](images/SAMLNewAppconfigsaml.png)
+
+* adfafd
+
+  ![new SAML application](images/SAMLNewAppISC.png)
+
+  

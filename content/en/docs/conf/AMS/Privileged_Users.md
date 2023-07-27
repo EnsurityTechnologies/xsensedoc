@@ -6,7 +6,7 @@ date: 2020-10-06T08:49:15+00:00
 lastmod: 2020-10-06T08:49:15+00:00
 draft: false
 images: []
-weight: 710
+weight: 670
 ---
 
 By default, all the users imported to the XSense CP server dashboard must sign into Windows PC with the XSense CPP using the ThinC-AUTH biometric security keys. Admins or privileged users added/imported to this privileged group will be able to bypass MFA / Biometrics sign-in to Windows PCs where XSense CPP is installed. 
