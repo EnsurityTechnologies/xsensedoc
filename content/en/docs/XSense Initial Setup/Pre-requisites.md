@@ -5,8 +5,8 @@ lead: ""
 draft: false
 menu:
   docs:
-    parent: "prologue"
-weight: 110
+    parent: "XSense Initial Setup"
+weight: 610
 toc: true
 ---
 

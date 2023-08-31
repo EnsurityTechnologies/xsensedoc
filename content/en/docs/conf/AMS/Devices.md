@@ -4,7 +4,7 @@ description: ""
 lead: ""
 draft: false
 images: []
-weight: 660
+weight: 740
 ---
 
 The AMS tab contains the list of ThinC-AUTH devices and the list of Privileged users. 

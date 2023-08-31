@@ -6,7 +6,7 @@ date: 2020-10-06T08:49:15+00:00
 lastmod: 2020-10-06T08:49:15+00:00
 draft: false
 images: []
-weight: 700
+weight: 870
 ---
 
 After login to the dashboard using the default admin credentials, the IT admin must configure the LDAP to synchronize the users and assign the ThinC-AUTH Biometric Security Keys to the users. To synchronize the users, please follow the steps below.
