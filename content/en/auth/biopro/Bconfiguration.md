@@ -25,27 +25,27 @@ The installation process is quick and easy. Run the executable after downloading
 
 1. Execute the downloaded installer file and install the OpenSSL on the Windows machine. Accept the licence agreement and indicate where the installation will be done. To continue, click on Next.
 
-    ![ssl installation](images/OpenSSL_004.PNG)
+    ![ssl installation](images/OpenSSL_004.png)
 
 2. After choosing the Start Menu location, click the Next button to begin the OpenSSL installation.
 
-    ![ssl installation](images/OpenSSL_005.PNG)
+    ![ssl installation](images/OpenSSL_005.png)
 
 3. Select the required additional task. We are continuing with the default selection of "The Windows System Directory" for the current installation. Select Next.
 
-    ![ssl installation](images/OpenSSL_006.PNG)
+    ![ssl installation](images/OpenSSL_006.png)
 
 4. Click Next after confirming the installation configuration selected.
 
-     ![ssl installation](images/OpenSSL_007.PNG)
+     ![ssl installation](images/OpenSSL_007.png)
 
 5. To begin the installation procedure, click Next.
 
-     ![ssl installation](images/OpenSSL_008.PNG)
+     ![ssl installation](images/OpenSSL_008.png)
 
 6. After the installation is successfully complete. Complete the installation by clicking Finish.
 
-    ![ssl installation](images/OpenSSL_009.PNG)
+    ![ssl installation](images/OpenSSL_009.png)
 
 #### Setup Environment variables
 
@@ -55,4 +55,4 @@ Add the Path environment variable to System Properties to set the environment va
 
 * Set the Path variables of the Bin folder in OpenSSL in the Environment variables window's of System Variables section.
 
-    ![ssl installation](images/OpenSSL_012.PNG).
+    ![ssl installation](images/OpenSSL_012.png)

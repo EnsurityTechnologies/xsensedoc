@@ -82,12 +82,12 @@
 #   weight = 20
 
 [[footer]]
-   name = "Ensurity"
+   name = "ensurity.com"
    url = "https://ensurity.com"
    weight = 10
 
 [[footer]]
-   name = "Privacy1"
+   name = "Privacy"
    url = "https://ensurity.com/Policies/privacy"
    weight = 20
 
