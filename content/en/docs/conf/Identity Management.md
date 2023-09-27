@@ -12,9 +12,9 @@ toc: true
 
 Roles, users, organization units and their permissions are managed under the Identity Management section. Under the Identity management tab, there are three sub sections
 
-  - Organization Unit
-  - Roles
-  - Uses
+- Organization Unit
+- Roles
+- Uses
 
 From the uses tab, the list of users and their corresponding roles and user attributes can be viewed. You can add, modify, and remove users as well as give them roles. The menu items and associated pages have permission. This means that in order to make them visible, the current user must possess the necessary rights. These capabilities are already available to users with the admin role (including the admin user). .Open the Permissions dialogue on the Roles or Users page and check the permissions if you want to enable permissions for additional roles or users
 
