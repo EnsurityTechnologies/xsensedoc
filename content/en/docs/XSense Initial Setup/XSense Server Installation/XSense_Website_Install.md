@@ -11,7 +11,7 @@ weight: 690
 
 This section describes the process of installing XSense IdP. Before proceeding with the installation, the pre-requisites such as IIS and SQL server must be made available.
 
-> During the installation of XSense IdP, if IIS is not preinstalled, XSense IdP will install IIS and XSense IdP during the installation process.
+{{< alert icon="👉" context="note" text="During the installation of XSense IdP, if IIS is not preinstalled, XSense IdP will install IIS and XSense IdP during the installation process." />}}
 
 * Ensurity provides the XSense IdP installer with the extension of '.MSI'. The admin must run the application in admin mode for it successfully install the necessary dependencies. Run the provided 'XSense_WebServer.msi' with administrator privilages.
 
