@@ -9,7 +9,7 @@ menu:
 weight: 650
 toc: true
 ---
-
+This section describes the process of configuing IIS after the completion of XSense IdP.
 
 ![IIS_Homepage.png](images/IIS_Homepage.png)
 
