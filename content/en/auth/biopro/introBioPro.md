@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "ThinC-AUTH BioPro Introduction"
 description: ""
 lead: ""
 date: 2022-01-25T14:41:21+01:00
