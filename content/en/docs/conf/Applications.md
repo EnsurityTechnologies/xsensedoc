@@ -11,7 +11,7 @@ toc: true
 ---
 ## API Keys
 
-An API key is used to identify and authenticate an application. They act as unique identifiers and provide a secret token for the authentication process. The APIs are the interface that helps the XSense Server communicate with the XSense CPP application and ThinC Manager.
+An API key is used to identify and authenticate an application. They act as unique identifiers and provide a secret token for the authentication process. The APIs are the interface that helps the XSense IdP Server communicate with the XSense CPP application and ThinC Manager.
 
 * To generate a new key, navigate to API keys under the Applications section. Click on New API Key and provide the Name of the API key and a key value. The key value can be alphanumeric and contain special characters. Click on save.
 
@@ -27,9 +27,9 @@ Place the API config file in the same folder of the XSense CPP installer. Once t
 
 ## OpenID
 
-OpenID is an open standard and decentralized authentication protocol that enables users to log in to multiple websites and applications using a single set of credentials. OpenID is a simplified identity layer implemented on top of the OAuth 2.0 protocol. The OpenID protocol allows users to authenticate themselves with an OpenID provider, such as XSense Server,Google or Facebook. After being verified, the user is given a special ID called an OpenID, which they can use to log into any number of websites that use OpenID authentication through XSense with multi-factor authentication.
+OpenID is an open standard and decentralized authentication protocol that enables users to log in to multiple websites and applications using a single set of credentials. OpenID is a simplified identity layer implemented on top of the OAuth 2.0 protocol. The OpenID protocol allows users to authenticate themselves with an OpenID provider, such as XSense IdP Server,Google or Facebook. After being verified, the user is given a special ID called an OpenID, which they can use to log into any number of websites that use OpenID authentication through XSense IdP with multi-factor authentication.
 
-With OpenID, users can enjoy the convenience of using a single set of login credentials across multiple platforms, reducing the burden of remembering multiple usernames and passwords. XSense Server offers  more secure / multi-factor authentication techniques, lowering the danger of password-related vulnerabilities such weak passwords or password reuse. The administrator can add several applications to enable multi-factor authentication from the XSense dashboard.
+With OpenID, users can enjoy the convenience of using a single set of login credentials across multiple platforms, reducing the burden of remembering multiple usernames and passwords. XSense IdP Server offers  more secure / multi-factor authentication techniques, lowering the danger of password-related vulnerabilities such weak passwords or password reuse. The administrator can add several applications to enable multi-factor authentication from the XSense IdP dashboard.
 
 * To add a application, click on **New Application**.
 

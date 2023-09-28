@@ -29,14 +29,14 @@ toc: true
 - Chrome standalone installer
 - Notepad++ zip
 - SSL/TLS certificate *(recommended to use Organization’s SSL certificate and if Organization is unable to provide, self-signed SSL will be used)*
-- MS SQL Database Server 2016+ *(recommended to deploy both the Application Portal and Database Server on different systems)* 
+- MS SQL Database Server 2016+ *(recommended to deploy both the Application Portal and Database Server on different systems)*
 
 | **C) Required Network Access Permissions** |
 | :---- |
 
 Allow traffic between XSense IdP Server, Database Server, Local-AD, XSense CPP Client Tool, CPP Agent Tool, and XSense Mobile App 
 - Configure Network Access in Switch / Firewall / Router for on-prem deployment:
-  - Enable port # 443 for XSense Server portal
+  - Enable port # 443 for XSense IdP Server portal
   - Enable port # 1443 for Database server
 - Enable network connectivity between XSense MFA Server portal and the Database Server
 - Enable network access for the secure API communication between XSense CPP Tool and XSense MFA Server portal
