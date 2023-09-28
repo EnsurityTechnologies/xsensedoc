@@ -10,6 +10,7 @@ weight: 610
 toc: true
 ---
 
+The necessary hardware and software required for deploying XSense IdP as an On-Prem solution are covered in this section.
 
 | **A) Recommended Hardware configuration for managing around 5,000 Users** |
 | :---- |

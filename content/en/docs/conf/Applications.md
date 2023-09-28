@@ -9,6 +9,17 @@ menu:
 weight: 720
 toc: true
 ---
+
+This section describes the various application that can be integrated with XSense IdP for single sign-on (SSO) or  authorise access to resources.
+
+The following industry-standard authentication methods are used by XSense IdP Platform:
+
+| Protocol|Version|
+|----------|:----------:|
+| SAML | 2.0 |
+| OAuth | 2 |
+| OIDC | 1.0 |
+
 ## API Keys
 
 An API key is used to identify and authenticate an application. They act as unique identifiers and provide a secret token for the authentication process. The APIs are the interface that helps the XSense IdP Server communicate with the XSense CPP application and ThinC Manager.
