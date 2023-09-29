@@ -30,17 +30,17 @@ This descibes the process of creating a new OU and adding the members, assigning
 
 - Enter the name of the organisation unit and click on **Save**.
 
-#### Add Member
+**Add Member**
 
 Once the OU is created, the admin can add members by clicking on the OU name, and click on 'Add Member' on the right side under the Members tab.
 
 - After choosing the requried members click on 'Save'.
 
-#### Add Role
+**Add Role**
 
 - After the desired users are selected and added to the OU, the admin can assing a role by clicking on the "Roles" tab. Click on Add Role and choose the required role for the OU.
 
-#### Additional Options
+**Additional Options**
 
 - On the available OU, the admin can perform the multiple operations
   - **Edit**: Allows the admin to edit the name of the Organisation Unit.
@@ -57,15 +57,15 @@ Roles are used for defining the access rights and permissions for a user to perf
 
 - **User** : The users assigned to this role will not have any access to the dashboard. If required, the admin can modify the permissions for this user role from Actions>> Permissions and choose the necessary permissions.
 
-### Role Creation
+**Role Creation**
 
 - To create a new role, click on “Create new role” enter the Role name and assign the required permissions. During the role creation, the admin can choose the default role for all the new users.
 
-  ![rolecreation](images/rolecreation.png)
+
 
 - Once the role is created, click on Actions, and choose “Permissions.” In the pop up choose the necessary permissions required and click on Save.
 
-  ![permissions](images/permissions.png)
+ 
 
 - The chosen permissions will be applied to the role. The users assigned to the role will have the assigned permissions only.
 
@@ -79,7 +79,7 @@ Users are verified by XSense IdP using either an external directory service or t
 
 Different responsibilities can be assigned to users once they have been onboarded to the XSense IdP server. Permissions for each user can also be modified on the XSense IdP server.
 
-### Manual User Creation
+### XSense IdP local directory
 
 When adding the user manually, the admin can choose the type of role that will be assigned to the user. These users are stored locally on the XSense IdP server. These users won't have their data synchronised with any enterprise user store directory, such as on-premises AD, Azure AD, etc. These altered permissions won't be synchronised with the organisation user store.
 
@@ -87,22 +87,18 @@ When adding the user manually, the admin can choose the type of role that will b
 - In the pop-up form for the new user creation, fill in the mandatory field and choose the necessary role for the user. The default Role is User; however, the admin can choose any other Role. Available.
 - Click on Save to create the user.
 
-### User Import from On-Prem Active Directory
+### User Import from configured directory services
 
 Users can be onboarded to XSense IdP server from connected LDAP server. The users can only be onboarded by administrators or users with administrator privilege authority. The "Users" role allocated users can have any of the available MFA choices in XSense IdP server.
 
-- To initiate the import, navigate to the Users section under Identity Management. Click on Import Users.
-- In the popup windows, click on Import Users under the LDAP section.
+- To initiate the import, navigate to the Users section under Identity Management. Click on "Import Users".
+- In the popup windows, based on the directory service configured in "Settings" choose the directory service and click on "Import Users".
 
-  ![permissions](images/LDAP_UserImport.png)
+ 
 
 - Choose the users and click on Sync. The selected users will be imported to XSense IdP server.
 
-  ![users](images/users.png)
+
 
 - The synced user role can be modified by clicking on Actions and Edit. Choose the necessary role for the user and click on Save.
 - The user details modified under the User information section do not get updated in the AD including the permissions. The modifications are local to the XSense IdP Server.
-
-### User Import from Azure AD
-
-- Need to add content

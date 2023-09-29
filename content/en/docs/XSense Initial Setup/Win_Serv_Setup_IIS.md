@@ -1,5 +1,5 @@
 ---
-title: "IIS Setup & Configuration"
+title: "IIS Setup"
 description: ""
 lead: ""
 draft: false

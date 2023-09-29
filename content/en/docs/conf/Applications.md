@@ -12,13 +12,32 @@ toc: true
 
 This section describes the various application that can be integrated with XSense IdP for single sign-on (SSO) or  authorise access to resources.
 
+The XSense IdP Server empowers modern organizations with protection against communication threats & data interception; and provides military grade end-to-end secure communication between the connected applications.
+
+Enterprise Applications (browser-based) can be integrated to XSense Server through standard ‘SAML’ or ‘OpenID Connect’ interfaces to facilitate passwordless authentication, and to allow the users to use single sign-on (SSO) to access connected services/applications.
+
+Enterprise home-grown / Thick Client applications, where the standard interfaces (SAML / OIDC) are not feasible for configuration, Ensurity can support them by providing a compatible SDK module, to enable passwordless authentication.
+
+![LDAP](images/XS_WebAppsarch.png)
+
+XSense IdP Server supports several authentication solutions, including Ensurity’s ‘XSense Verify Mobile Authenticator App’ for Smartphones (Android & iOS), and ‘ThinC-AUTH’ Biometric Security Key; in addition to the standard OATH-TOTP/HOTP based mobile authenticators, and SMS Codes.
+
+The solution has intuitive design interface and facilitates the Admin users with the following processes:
+
+Easy user registration process
+
+Assigning choice of multi-factor authentication mechanisms to users
+
+Integration with Microsoft Active Directory
+
+Monitoring & Analysis of User login activity
+
 The following industry-standard authentication methods are used by XSense IdP Platform:
 
 | Protocol|Version|
 |----------|:----------:|
 | SAML | 2.0 |
-| OAuth | 2 |
-| OIDC | 1.0 |
+| OIDC | 2.0 |
 
 ## API Keys
 
