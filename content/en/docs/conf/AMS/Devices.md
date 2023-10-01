@@ -7,10 +7,7 @@ images: []
 weight: 740
 ---
 
-The AMS tab contains the list of ThinC-AUTH devices and the list of Privileged users. 
-Device
-
-This tab contacts the list of ThinC-AUTH devices. The ThinC-AUTH devices can be imported to the XSense CP server using a predefined Excel template available in the XSense CP server or Ensurity-shared Excel in the predefined format or upload the device licenses shared by Ensurity. 
+This tab contacts the list of ThinC-AUTH devices. The ThinC-AUTH devices can be imported to the XSense IdP portal using a predefined Excel template available in the XSense IdP portal or Ensurity-shared Excel in the predefined format or upload the device licenses shared by Ensurity.
 
 ## Device License
 
