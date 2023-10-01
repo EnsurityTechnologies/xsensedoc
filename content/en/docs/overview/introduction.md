@@ -92,3 +92,4 @@ Helpful to Enterprises, those do allow external network connectivity.
 The diagram highlights the over architecture of the solution. The XSenseCP Server hosted in Ensurity cloud data center is configurable to connect with an existing LDAP/Azure user directory to synchronize the existing users and groups in an enterprise directory. The LDAP/Azure directory is used for both user authentication and account management.
 
 ![Arch](images/XS_Deployment_SaaS.png)
+
