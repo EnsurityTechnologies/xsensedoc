@@ -9,7 +9,7 @@ images: []
 weight: 750
 ---
 
-As the default configuration, every user imported into the XSense IdP portal through the AD are required to utilize any one of the authentication method such as ThinC-AUTH biometric security keys for signing into Windows PCs through XSense CPP. However, administrators and temporary users who are added or imported into this special group will have the privilege to bypass multi-factor authentication (MFA) or biometric sign-in when signing in to Windows PCs using their AD credentials where XSense CPP is installed.
+As the default configuration, every user imported into the XSense IdP portal through the AD are required to utilize any one of the authentication method such as ThinC-AUTH biometric security keys for signing into Windows PCs through XSense CPP. However, administrators and temporary users who are added or imported into this special group will have the privilege to bypass multi-factor authentication (MFA) or biometric sign-in, when signing in to Windows PCs using their AD credentials where XSense CPP is installed.
 
 XSense offers two categories of user groups for authentication bypass: Whitelisted users and Admin users.
 
@@ -21,7 +21,7 @@ These users will possess solely the privilege of bypassing MFA authentication du
 
 To include these users in the Whitelist group, administrators must adhere to the following procedure.
 
-* Select **Whitelist User** and in the "Add privileged user" pop-up, pick the user from the roster of users imported into the XSense IdP portal.
+* Select **Whitelist User** and in the **Add privileged user** pop-up, pick the user from the roster of users imported into the XSense IdP portal.
 * After selecting the desired user, click **Save**. The imported user will be designated as a Whitelist User.
 
     ![whitelist user](images/whitelistuser.png)
