@@ -41,7 +41,7 @@ Prior to initiating the RDP session, the IP address of the administrator's machi
 
 ### Assign Users or Group
 
-XSense IdP offers administrators the choice to link a user or a group of users to a PC, granting access to a workstation or server upon verification of their AD credentials and the completion of multifactor authentication. This feature closely resembles the "User logon to" feature in Active Directory (AD), where a computer is associated with a user within the user's properties.
+XSense IdP offers administrators the choice to link a user or a group of users to a PC, granting access to a workstation or server upon verification of their AD credentials and the completion of multifactor authentication. This feature closely resembles the "User logon to" feature in Active Directory (AD), where a computer is associated with a user within the user's properties. This option becomes active when the admin enables the **Enable PC Verification** feature in the XSense IdP **Settings**.
 
 * It is recommended that the administrator creates an OU under Identity Management with the necessary users before assigning a group to the computer. After creating the requisite groups within this OU, the administrator can then select the desired group of users.
 
@@ -49,7 +49,7 @@ XSense IdP offers administrators the choice to link a user or a group of users t
 
 * To view the list of users / groups assigned to the computer, click on **+** under **Assigned Users** of the selected computer.
 
-* To unassign the user / group, click on **+** under **Assigned Users** of the selected computer. It will list the users / groups assigned to the computer. Select the required user / group that has to be unassigned and click on **Unassign**.
+* To remove the user/group assignment, click the **+** icon beneath the **Assigned Users** section of the chosen computer. This will display a list of users/groups currently assigned to the computer. Choose the desired user/group that needs to be unassigned and click on **Unassign**.
 
     ![Un-Assign group](images/unassigncomputer.png)
 
