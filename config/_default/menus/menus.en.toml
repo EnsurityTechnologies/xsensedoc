@@ -29,7 +29,7 @@
   url = "/tutorial/lorem/"
 
 [[main]]
-  name = "XSense"
+  name = "XSense IdP"
   url = "/docs/overview/introduction/"
   weight = 10
 

@@ -22,52 +22,49 @@ From the uses tab, the list of users and their corresponding roles and user attr
 
 Users, groups, and computers can all be stored under an Organization Unit here after referred as 'OU', which is a container found within an XSense IdP server. The smallest unit to which a Group Policy setting or account authorization can be applied is known as a subunit. Multiple OUs may exist within an AD organisational unit, but each of the OU's constituent attributes must be distinct.
 
-**OU Creation**
+### OU Creation
 
 This descibes the process of creating a new OU and adding the members, assigning the roles to newly created OU.
 
 - Navigate to the Organisation Unit, which is under Identity Management, to start a new Organisation Unit. Select **Add root unit**.
-
 - Enter the name of the organisation unit and click on **Save**.
 
-**Add Member**
+#### Add Member
 
-Once the OU is created, the admin can add members by clicking on the OU name, and click on 'Add Member' on the right side under the Members tab.
+Once the OU is created, the admin can add members by clicking on the OU name, and click on **Add Member** on the right side under the Members tab.
+After choosing the requried members click on **Save**.
 
-- After choosing the requried members click on 'Save'.
+#### Add Role
 
-**Add Role**
+After the desired users are selected and added to the OU, the admin can assing a role by clicking on the **Roles** tab. Click on **Add Role** and choose the required role for the OU.
 
-- After the desired users are selected and added to the OU, the admin can assing a role by clicking on the "Roles" tab. Click on Add Role and choose the required role for the OU.
-
-**Additional Options**
+#### Additional Options
 
 - On the available OU, the admin can perform the multiple operations
   - **Edit**: Allows the admin to edit the name of the Organisation Unit.
   - **Add Sub-unit**: Allows the administrator to create a sub unit for more accurate user categorisation. Provides the admin the ability to add a sub-organizational unit. Each subunit can have an individual role.
   - **Add Member**: Allows the admin to add users to the organisation unit.  
   - **Add Role**: Assign the organisation unit the permissions. The Roles created under the Roles section are where these permissions are selected.
-  - **Delete**: Delete the organisation unit, but doing so does not remove the associated users or roles from the server.
+  - **Delete**: Delete the organisation unit, but doing so does not remove the associated users, roles or computers from the XSense IdP portal.
 
 ## Roles
 
 Roles are used for defining the access rights and permissions for a user to perform a specific operation. By default, the application provides two roles, one is the Admin role and the other is the User role. The admin can choose any role for the user during the user creation. The admin can also create new roles and assign these roles to users. The Admin can configure the permissions based on the role created. XSense IdP provides two default roles.
 
-- **Admin** :  The users assigned to this role are administrators and have all the permissions in the application. These users can access the dashboard and manage the users, applications, AMS, Devices, and Settings and make any necessary changes to the application.
+- **Admin**:  The users assigned to this role are administrators and have all the permissions in the application. These users can access the dashboard and manage the users, applications, AMS, Devices, and Settings and make any necessary changes to the application.
 
-- **User** : The users assigned to this role will not have any access to the dashboard. If required, the admin can modify the permissions for this user role from Actions>> Permissions and choose the necessary permissions.
+- **User**: The users assigned to this role will not have any access to the dashboard. If required, the admin can modify the permissions for this user role from Actions>> Permissions and choose the necessary permissions.
 
-**Role Creation**
+### Role Creation
 
-- To create a new role, click on “Create new role” enter the Role name and assign the required permissions. During the role creation, the admin can choose the default role for all the new users.
-
-
-
-- Once the role is created, click on Actions, and choose “Permissions.” In the pop up choose the necessary permissions required and click on Save.
-
- 
-
-- The chosen permissions will be applied to the role. The users assigned to the role will have the assigned permissions only.
+- To create a new role, click on **Create new role** enter the **Role Name** and click on **Save**. The administrator can decide whether the newly created role will be a default role or a public role during the role creation process. All newly imported users will be assigned to this position if the admin designates it as the default role.
+- Once the role is created, there are multiple actions that can be performed on a role by clicking on **Action** button aganist the role. The options that are avialable under Actions are listed below:
+  
+  - **Edit**: Permits the administrator to change the role's name and whether it is default or public.
+  - **Claims**: Currently, this option is being implemented.
+  - **Permissions**: The selected permissions will be enforced for the role, and the users assigned to that role will inherit these permissions.
+  - **Change History**: Provides a record or log of alterations, modifications, or updates made to the particular role.
+  - **Delete**: Removes the role from the XSense IdP portal.
 
 ## User
 
@@ -83,22 +80,16 @@ Different responsibilities can be assigned to users once they have been onboarde
 
 When adding the user manually, the admin can choose the type of role that will be assigned to the user. These users are stored locally on the XSense IdP server. These users won't have their data synchronised with any enterprise user store directory, such as on-premises AD, Azure AD, etc. These altered permissions won't be synchronised with the organisation user store.
 
-- To add the User, navigate to Users under Identity Management. Click on New User.
-- In the pop-up form for the new user creation, fill in the mandatory field and choose the necessary role for the user. The default Role is User; however, the admin can choose any other Role. Available.
-- Click on Save to create the user.
+- To add the User, navigate to Users under Identity Management. Click on **New User**.
+- In the pop-up form for the new user creation, fill in the mandatory field and choose the necessary role for the user. The default Role is User; however, the admin can choose any other Role available.
+- Click on **Save** to create the user.
 
 ### User Import from configured directory services
 
 Users can be onboarded to XSense IdP server from connected LDAP server. The users can only be onboarded by administrators or users with administrator privilege authority. The "Users" role allocated users can have any of the available MFA choices in XSense IdP server.
 
-- To initiate the import, navigate to the Users section under Identity Management. Click on "Import Users".
-- In the popup windows, based on the directory service configured in "Settings" choose the directory service and click on "Import Users".
-
- 
-
-- Choose the users and click on Sync. The selected users will be imported to XSense IdP server.
-
-
-
-- The synced user role can be modified by clicking on Actions and Edit. Choose the necessary role for the user and click on Save.
+- To initiate the import, navigate to the Users section under Identity Management. Click on **Import Users**.
+- In the popup windows, based on the directory service configured in **Settings** choose the directory service and click on **Import Users**.
+- Choose the users and click on **Sync**. The selected users will be imported to XSense IdP server.
+- The synced user role can be modified by clicking on **Actions** and **Edit**. Choose the necessary role for the user and click on **Save**.
 - The user details modified under the User information section do not get updated in the AD including the permissions. The modifications are local to the XSense IdP Server.
