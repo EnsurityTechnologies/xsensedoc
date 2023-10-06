@@ -12,6 +12,8 @@ weight: 930
 
 ## Windows Sign-in
 
+![Sign in Authentication](images/CPauthenticationmodes.png)
+
 ### ThinC-AUTH
 
 ### XSense Verify - Crypt Code
@@ -22,6 +24,10 @@ weight: 930
 
 ## UAC
 
+![App uninstall](images/UAC_XSenseCPP.png)
+
 ## RDP
 
 ### ThinC Agent
+
+![ThinC Agent](images/ThinCAgent.png)

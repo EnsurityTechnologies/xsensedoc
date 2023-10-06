@@ -76,9 +76,19 @@ Users are verified by XSense IdP using either an external directory service or t
 
 Different responsibilities can be assigned to users once they have been onboarded to the XSense IdP server. Permissions for each user can also be modified on the XSense IdP server.
 
+
+| User Attributes @ Local / Hybrid AD | User Attributes @ Azure AD |
+|---|---|
+| userPrincipalName  | id  |
+|  sAMAccoutnName | userPrincipalName |
+|  cn | display name  | 
+|given name | given name|
+| display name | last name |
+|email | email|
+
 ### XSense IdP local directory
 
-When adding the user manually, the admin can choose the type of role that will be assigned to the user. These users are stored locally on the XSense IdP server. These users won't have their data synchronised with any enterprise user store directory, such as on-premises AD, Azure AD, etc. These altered permissions won't be synchronised with the organisation user store.
+When adding the user manually, the admin can choose the type of role that will be assigned to the user. These users are stored locally on the XSense IdP server. These users won't have their data synchronized with any enterprise user store directory, such as on-premises AD, Azure AD, etc. The altered permissions won't be synchronized with the organization user store.
 
 - To add the User, navigate to Users under Identity Management. Click on **New User**.
 - In the pop-up form for the new user creation, fill in the mandatory field and choose the necessary role for the user. The default Role is User; however, the admin can choose any other Role available.
@@ -86,9 +96,9 @@ When adding the user manually, the admin can choose the type of role that will b
 
 ### User Import from configured directory services
 
-Users can be onboarded to XSense IdP server from connected LDAP server. The users can only be onboarded by administrators or users with administrator privilege authority. The "Users" role allocated users can have any of the available MFA choices in XSense IdP server.
+Users can be on-boarded to XSense IdP server from connected LDAP server. The users can only be onboarded by administrators or users with administrator privilege authority. The "Users" role allocated users can have any of the available MFA choices in XSense IdP server.
 
-- To initiate the import, navigate to the Users section under Identity Management. Click on **Import Users**.
+- To initiate the import, navigate to the **Users** section under Identity Management. Click on **Import Users**.
 - In the popup windows, based on the directory service configured in **Settings** choose the directory service and click on **Import Users**.
 - Choose the users and click on **Sync**. The selected users will be imported to XSense IdP server.
 - The synced user role can be modified by clicking on **Actions** and **Edit**. Choose the necessary role for the user and click on **Save**.
