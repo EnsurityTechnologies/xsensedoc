@@ -39,10 +39,10 @@ XSense CPP is a flexible application that permits users to select the preferred 
 
 When this checkbox is selected, users will be presented with a list of available multifactor authentication methods for the machine at the time of Windows Sign-in. Some examples of these authentication methods include:
   
-  * ThinC-AUTH
-  * TOTP
-  * XSense Crypto
-  * XSense FIDO mobile
+* ThinC-AUTH
+* TOTP
+* XSense Crypto
+* XSense FIDO mobile
 
 ## Allow Local User
 
