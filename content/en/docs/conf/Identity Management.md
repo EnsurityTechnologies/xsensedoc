@@ -76,7 +76,6 @@ Users are verified by XSense IdP using either an external directory service or t
 
 Different responsibilities can be assigned to users once they have been onboarded to the XSense IdP server. Permissions for each user can also be modified on the XSense IdP server.
 
-
 | User Attributes @ Local / Hybrid AD | User Attributes @ Azure AD |
 |---|---|
 | userPrincipalName  | id  |
