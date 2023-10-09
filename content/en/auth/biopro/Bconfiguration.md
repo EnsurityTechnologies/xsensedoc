@@ -51,7 +51,7 @@ The installation process is quick and easy. Run the executable after downloading
 
 Add the Path environment variable to System Properties to set the environment variable.
 
-* In the Run command type'sysdm.cpl'. Select Environment Variable under Advanced tab.
+* In the Run command type **sysdm.cpl**. Select Environment Variable under Advanced tab.
 
 * Set the Path variables of the Bin folder in OpenSSL in the Environment variables window's of System Variables section.
 

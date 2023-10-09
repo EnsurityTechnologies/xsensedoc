@@ -12,7 +12,7 @@ The **ThinC Manager Tool** is a standalone application, which helps the end-user
 
  ![thincmanager](images/thincmanager.png)
 
-*Figure-5: ThinC Manager Tool*
+    *Figure-5: ThinC Manager Tool*
 
 The ThinC Manager securely communicates with the AMS module of the XSense IdP Server Portal for validating the assigned number of fingerprints to be enrolled by the designed users.
 
