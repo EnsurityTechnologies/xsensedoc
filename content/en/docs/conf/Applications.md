@@ -62,7 +62,7 @@ With OpenID, users can enjoy the convenience of using a single set of login cred
 
 * To add a application, click on **New Application**.
 
-![LDAP](images/newopenid.png)
+![LDAP](images/newopenid.PNG)
 
 * Enter the required details and choose the necessary scopes for the application and click on **Save**.
 

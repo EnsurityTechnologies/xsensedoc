@@ -31,3 +31,15 @@ A FIDO2 hard authentication token without biometrics merely authenticates the ho
 Biometric technology makes FIDO2 Security Key one of the most secure authenticators. The unique identity of the biometric minutiae prevents any misuses of the token from people other than authorized user and losing the key will cause no security risk at all.
 
 ThinC-AUTH security key is built with state-of-the-art biometric 360° touch sensor from a leading OEM. Fingerprint minutiae templates obtained from sensor are completely encrypted, securely stored and confined to the device. This biometric touch sensor is exceptionally responsive; ThinC-AUTH uses hardware to match enrolled fingerprint, unlocking device and securely authenticate using FIDO2/U2F. Fingerprints and digital identity remain private on device and protected by advanced encryption.
+
+## Device Modes
+
+ThinC-AUTH devices can be set to different modes to align with specific requirements. The device's configuration and license are managed at the firmware level, and the choice of license impacts the functionality, including the fingerprint enrollment application.
+
+### Corporate Mode
+
+ThinC-AUTH come with corporate licenses that are specially made to meet the needs of the organization. These devices connect to the XSense IdP portal, enabling remote actions such as enable fingerprint enrollment, device lock, reset in the event of loss or theft. With this proactive strategy, sensitive organizational data is protected from unauthorised access. Furthermore, users must enrol their fingerprints using the ThinC Manager application when these devices are issued with corporate licenses.
+
+### Standalone Mode
+
+ThinC-AUTH devices are configured in standalone mode where these devices operate independently without connecting to a centralized server, such as the XSense IdP portal. The user can enroll the fingerprints using ThinC-AUTH Manager tool that can be downloaded from our **<a href="https://ensurity.com/Products/ThinC_AUTH#Resources">website</a>** or use the default tool available in Windows **Settings**.
