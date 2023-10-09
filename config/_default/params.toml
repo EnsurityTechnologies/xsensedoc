@@ -3,8 +3,8 @@
 ## Homepage
 title = "Ensurity"
 titleSeparator = "-"
-titleAddition = "XSense Documentation"
-# description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "Documentation"
+# description = ""
 
 ## Documentation
 # docsVersion = "0.3"
@@ -16,8 +16,8 @@ domainTLD = "doks.netlify.app"
 titleHome = "Doks Theme"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+# twitterSite = "@getdoks"
+# twitterCreator = "@henkverlinde"
 
 ## JSON-LD
 # schemaType = "Person"
@@ -43,39 +43,38 @@ schemaSection = "blog"
 siteLinksSearchBox = false
 
 ## Chrome Browser
-themeColor = "#fff"
+themeColor = "#1194ff"
 
 # Images - Temporarily left in place for backward compatibility
 quality = 85
-bgColor = "#fff"
+bgColor = "#1194ff"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
-lqipWidth = "30x"
-smallLimit = "720"
+lqipWidth = "20x"
+smallLimit = "300"
 
 # Images
 imageResponsive = true
-
-imageImageSizes = ["1080","1280","1600","1920","2048"]
-singleSize = true
-imageAddClass = "img-fluid"
+imageConvertTo = "webp"
+imageImageSizes = ["480","720","1080","1280","1600","2048"]
+singleSize = false
+imageAddClass = "img-fluid lazyload blur-up"
 
 ### Image template
 defaultImage = "default-image.png" # put in `./assets/images/`
-fillImage = "1920x1080 Center" # normalize image size
+fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-#footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Ensurity</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
-footer = "this is available in config>> _default>params.toml"
+footer = "Powered by "
 
 # Feed
-# copyRight = "Copyright (c) 2022-2023 Ensurity Technologies"
+copyRight = "Copyright (c) Ensurity Technologies Private Limited"
 
 # Alert
 alert = false
 alertDismissable = true
 # alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
-alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
+alertText = ""
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
