@@ -12,11 +12,11 @@ weight: 50
 
 ## Standalone Mode
 
-If the device is in standalone mode, then the users can use the **<a href="https://www.ensurity.com/Products/ThinC_AUTH#Resources"> ThinC-AUTH tool</a>** for fingerprint or use Microsoft Windows default tool available in Windows Settings. The complete process on the fingerprint enrollment using the ThinC-AUTH tool is available **<a href="https://thinc.ensurity.com/wp/wp-content/uploads/manuals/ThinC-AUTH_Microsoft/ThinC-AUTHIntroduction.html"> ThinC-AUTH User Manual</a>**
+For the device is in standalone mode, the users can use the **<a href="https://www.ensurity.com/Products/ThinC_AUTH#Resources"> ThinC-AUTH tool</a>** for fingerprint enrollment or use Microsoft Windows default tool available in Windows Settings. The complete process on the fingerprint enrollment using the ThinC-AUTH tool is available **<a href="https://thinc.ensurity.com/wp/wp-content/uploads/manuals/ThinC-AUTH_Microsoft/ThinC-AUTHIntroduction.html"> ThinC-AUTH User Manual</a>**
 
 ## Corporate Mode
 
-The **ThinC Manager Tool** is a standalone application, which helps the end-users to enroll their Fingerprints on to their assigned ThinC-AUTH biometric security key. A corporate license will be integrated within the ThinC-AUTH Keys to facilitate the AMS compatibility, which enable complete life-cycle management of FIDO2 Security Keys.
+The **ThinC Manager Tool** is a standalone application, which helps the end-users to enroll their Fingerprints on to their assigned ThinC-AUTH biometric security key connected to XSense IdP server. A corporate license will be integrated within the ThinC-AUTH Keys to facilitate the AMS compatibility, which enable complete life-cycle management of FIDO2 Security Keys.
 
  ![thincmanager](images/thincmanager.png)
 
