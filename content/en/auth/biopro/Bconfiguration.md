@@ -4,14 +4,14 @@ description: ""
 lead: ""
 date: 2022-01-25T14:41:21+01:00
 lastmod: 2022-01-25T14:41:21+01:00
-draft: false
+draft: true
 type: docs
 weight: 120
 ---
 
 This section explains the procedure for installing the required software to set up ThinC-AUTH Bio Pro with the required certificates for biometric-based PIV authentication to successfully sign in to Microsoft Windows 10 and above securely.
 
-The programmes that will be used to configure the ThinC-AUTH Bio Pro USB security key are listed below.
+The application that will be used to configure the ThinC-AUTH Bio Pro USB security key are listed below.
 
 1. OpenSSL Light
 2. ThinC-AUTH PIV Manager
@@ -36,11 +36,11 @@ The installation process is quick and easy. Run the executable after downloading
 
 4. Click Next after confirming the installation configuration selected.
 
-     ![ssl installation](images/OpenSSL_007.png)
+    ![ssl installation](images/OpenSSL_007.png)
 
 5. To begin the installation procedure, click Next.
 
-     ![ssl installation](images/OpenSSL_008.png)
+    ![ssl installation](images/OpenSSL_008.png)
 
 6. After the installation is successfully complete. Complete the installation by clicking Finish.
 

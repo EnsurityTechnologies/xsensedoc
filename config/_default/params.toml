@@ -12,7 +12,7 @@ titleAddition = "Documentation"
 ## Open Graph
 # images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
+domainTLD = "docs.ensurity.com"
 titleHome = "Doks Theme"
 
 ## Twitter Cards
@@ -24,9 +24,9 @@ titleHome = "Doks Theme"
 schemaType = "Organization"
 schemaName = "Doks"
 schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+#schemaAuthorTwitter = "https://twitter.com/henkverlinde"
+#schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
+#schemaAuthorGitHub = "https://github.com/h-enk"
 schemaLocale = "en-US"
 schemaLogo = "logo-doks.png"
 schemaLogoWidth = 512
@@ -34,7 +34,7 @@ schemaLogoHeight = 512
 schemaImage = "doks.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
+#schemaTwitter = "https://twitter.com/getdoks"
 schemaLinkedIn = ""
 schemaGitHub = "https://github.com/h-enk/doks"
 schemaSection = "blog"
@@ -46,7 +46,7 @@ siteLinksSearchBox = false
 themeColor = "#1194ff"
 
 # Images - Temporarily left in place for backward compatibility
-quality = 85
+quality = 100
 bgColor = "#1194ff"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
@@ -65,7 +65,7 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Powered by"
+ footer = "Copyright (c) Ensurity Technologies Private Limited"
 
 # Feed
 copyRight = "Copyright (c) Ensurity Technologies Private Limited"
@@ -80,7 +80,7 @@ alertText = ""
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/h-enk/doks"
+docsRepo = "https://github.com/EnsurityTechnologies/xsensedoc"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
 editPage = false
